@@ -1,0 +1,90 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+/*.fullcontainer{
+    width:100%;
+}*/
+.head{
+    width:100%;
+    display: flex;
+    justify-content:space-between ;
+    text-align: center;
+    margin-top: 20px;
+    width:100%;
+}
+.head .class2,.head .class1{
+    display:flex;
+    gap:20px;
+    font-size:1.5rem ;
+}
+a{
+text-decoration: none;
+color: black;
+}
+a:hover{
+    text-decoration: underline black;
+}
+.icons{
+    width:50px;
+    height:70px;
+}
+.main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:100px;
+}
+ .main .searchbar{
+    position:relative;
+    width:70%;
+    text-align:center;
+    font-size:1.5rem ;
+    margin-top:50px;
+     
+ }
+ .search{
+    width:100%;
+    padding:20px;
+    border-radius:20px;
+    outline: none;
+ }
+ .search:hover{
+    box-shadow:2px 2px 2px 2px lightslategray;
+ }
+ .icons{
+    width:100%;
+    position:absolute;
+    top:0px;
+    padding:20px;
+    display:flex;
+    justify-content:space-between ;
+    pointer-events:none;
+ }
+ .icons2{
+    display:flex;
+ }
+ input::placeholder{
+   text-align: center;
+ }
+ .buttons{
+    margin-top:20px;
+    display:flex;
+    gap:30px;
+ }
+ .buttons button{
+    padding:10px;
+    border:none ;
+ }
+ button:hover{
+    box-shadow: 1px 1px 1px 1px lightslategray;
+    
+ }
+ @media screen  and (width <= 600px){
+    main{
+        display:block;
+    }
+ }
+  
